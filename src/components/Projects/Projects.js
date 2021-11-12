@@ -26,17 +26,23 @@ function Projects() {
             <ProjectCard
               imgPath={connect}
               isBlog={false}
-              title={<div>"Connect US"
-              description="Collaborated with a team of Software Engineers, UX Designers, and Data Scientists to build a creative and high impact application focusing on immigrant relocation to the US, using open source federal government data."
+              title="Connect US"
+              description={<><div>Collaborated with a team of Software Engineers, UX Designers, and Data Scientists to build a creative and high impact application focusing on immigrant relocation to the US, using open source federal government data."
               "MERN Stack app with KMeans clustering model integration."
-              
-              "Features include:
-              --JWT User Auth,
-              --Google Geocoder, Places, Photos and Map API integration
-              --Wikipedia API,
-              --Custom Carousel image displays,
-              --Styled with Tailwind UI and CSS
-              --Custom API calls to/from a KMeans clustering machine learning model using Python and Flask"</div>}
+              </div>
+              <div>
+              <br></br>
+              Features include:
+              <ul>
+              <li>JWT User Auth</li>
+              <li>Google Geocoder, Places, Photos and Map API integration</li>
+              <li>Wikipedia API</li>
+              <li>Custom Carousel image displays</li>
+              <li>Styled with Tailwind UI and CSS</li>
+              <li>Custom API calls to/from a KMeans clustering machine learning model using Python and Flask</li>
+              </ul>
+              </div>
+              </>}
               link="https://github.com/Cmosley/where-should-we-live/"
             />
           </Col>
