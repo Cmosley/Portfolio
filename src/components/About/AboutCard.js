@@ -11,27 +11,26 @@ function AboutCard() {
             Hi Everyone, I am{" "}
             <span className="site-color">Christian Mosley </span>
             from <span className="site-color"> Fort Worth, TX</span>
-            <br />I am a full-stack software engineer
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Drinking an excessive amount of Monsters
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Swiping right on dating apps
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling
+              <ImPointRight /> Playing basketball with dirty diapers
             </li>
           </ul>
 
-          {/* <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+            "Before you marry, you should first make them use a computer with slow internet to see who they really are"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer> */}
+          <footer className="blockquote-footer">-Will Ferrell</footer> 
         </blockquote>
       </Card.Body>
     </Card>

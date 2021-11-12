@@ -194,7 +194,6 @@ html {
   border-radius: 16px;
   background: #6950f4;
   bottom: 1px;
-  left: 0;
   z-index: -1;
   transition: all 0.3s ease-out 0s;
 }
