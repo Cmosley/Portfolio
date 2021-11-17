@@ -9,7 +9,7 @@ import pdf from "../../Assets/CMosley-Resume-online.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/cmosley/portfolio/master/Christian%20Mosley%20Resume-online.pdf";
+  "https://raw.githubusercontent.com/cmosley/portfolio/master/src/Assets/CMosley-Resume-online.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
